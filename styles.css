@@ -34,8 +34,6 @@ a:hover {
 }
 
 .nav {
-/*  display: flex;*/*/
-/*  justify-content: space-around;*/
   font-weight: 700;
   list-style-type: none;
   margin: 0 auto;
@@ -65,7 +63,7 @@ header, #experience-header {
   background-size: cover;
   overflow: hidden;
   padding-top: 134px;
-  opacity: 0.75;
+  opacity: 0.9;
 }
 #experience-header {  
   background: url('images/night-city.jpg') no-repeat top center ;
@@ -99,20 +97,24 @@ header .profile-image:hover {
 .tag, .location{
   text-shadow: 1px 1px 4px rgba(153, 204, 255, 0.82);
 }
-.card {
+.card, .experience {
   margin: 30px;
-  padding: 20px 40px 40px;
-  max-width: 500px;
+  padding: 20px 40px 40px;  
   text-align: left;
   background: #fff;
   border-bottom: 4px solid #ccc;
   border-radius: 6px;
   transition: all .5s;
 }
+.card {
+	max-width: 500px;
+}
 .card:hover {
   border-color: #ff99ff;
 }
-
+.experience h2 {
+	text-align: center
+}
 ul.skills {
   padding: 0;
   text-align: center;
@@ -128,7 +130,7 @@ ul.skills {
 }
 
 .skills li:nth-child(odd) {
-  background: #0399ff;
+  background: #777;
 }
 
 footer {
@@ -231,8 +233,7 @@ header {
     font-size: 1.3em;
     max-width: 1200px;
     margin: 40px auto;
-  }
-  
+  }  
  
 }
 
